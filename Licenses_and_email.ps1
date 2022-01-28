@@ -1,3 +1,4 @@
+#Set execution policy, install MSOnline module, find licensed user and export the results to a csv file.
 Set-ExecutionPolicy -ExecutionPolicy Bypass
 Install-Module MSOnline
 $cred = Import-Clixml -Path "C:\Users\username\path\to\file\cloud.cred"
