@@ -1,7 +1,7 @@
 # 365_Licenses
 Check Licenses Users in Azure/Office 365 and e-mail the results to whoever needs them. 
 
-This is a pretty straightforward script. Check for licenses users then e-mail it to whoever needs the information. There are a few tweaks you can do to make it: Less sarcastic, and suit your environment. 
+This is a pretty straightforward script. Check for licensed users then e-mail it to whoever needs the information. There are a few tweaks you can do to make it: Less sarcastic, and suit your environment. 
 
 If for some reason you are in Office 365 and you are not using cloud Exchange, then you would want to switch out Send-MailMessage -SmtpServer " " to your MX server/record. 
 
